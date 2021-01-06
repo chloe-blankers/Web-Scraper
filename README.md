@@ -2,7 +2,7 @@
 This Python program reads HTML tables and converts them into csv format.
 
 ### Example Input Table
-`<table><tr>
+<table><tr>
 <th>Student Number</th><th>Student Name</th><th>Major</th>
 <th>A1 mark</th><th>A2 mark</th></tr  >
 <tr><td>V00000001</td><td></td><td></td><td>10</td>
@@ -23,10 +23,10 @@ Computer Science
    <td style="color: red;">Software Engineering</td><td>18</td><td>12</td></tr>
 <tr><td>V00654322</td><td>Hannah Hindbaer</td><td>Physics</td><td>15</td><td>18</td></tr>
 <tr><td>V00951413</td><td>Neal Naranja</td><td>Anthropology</td><td>15</td><td>15</td></tr>
-</table>`
+</table>
 
 ### Example Output CSV File
-`TABLE 1:
+TABLE 1:
 Student Number,Student Name,Major,A1 mark,A2 mark
 V00000001,,,10,11
 V00123456,Alastair Avocado,Psychology,12,
@@ -34,7 +34,7 @@ V00123457,Rebecca Raspberry,Computer Science,17,14
 V00314159,Fiona Framboise,Computer Science,,17
 V00654321,Meredith Malina,Software Engineering,18,12
 V00654322,Hannah Hindbaer,Physics,15,18
-V00951413,Neal Naranja,Anthropology,15,15`
+V00951413,Neal Naranja,Anthropology,15,15
 
 
 
