@@ -150,7 +150,7 @@ This Python program reads HTML tables and converts them into csv format.
 
 
 ### Example Output CSV File
-TABLE 1:</br>
+`TABLE 1:</br>
 Student Number,Student Name,Major,A1 mark,A2 mark</br>
 V00000001,Will Byers,Paranormal Studies,,</br>
 V00123456,Alastair Avocado,Psychology,12,</br>
@@ -174,7 +174,7 @@ Kid A,Radiohead,Alternative Rock,9.5</br>
 Transformer,Lou Reed,Glam Rock,9.9</br>
 Aladdin Sane,<strong>David Bowie</strong>,Art Rock,8.7</br>
 Wish You Were Here,Pink Floyd,Prog Rock,9.5</br>
-Missing Data Row,,,</br>
+Missing Data Row,,,</br>`
 
 
 
