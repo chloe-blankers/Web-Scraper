@@ -1,7 +1,7 @@
 # Web-Scraper
 This Python program reads HTML tables and converts them into csv format.
 
-### Example Input Table
+### Example Input File
 <table>
     <tr>
         <th>Student Number</th>
