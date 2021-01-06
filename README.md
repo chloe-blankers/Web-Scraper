@@ -26,7 +26,6 @@ Computer Science
 </table>
 
 ### Example Output CSV File
-TABLE 1:</br>
 Student Number,Student Name,Major,A1 mark,A2 mark</br>
 V00000001,,,10,11</br>
 V00123456,Alastair Avocado,Psychology,12,</br>
