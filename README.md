@@ -26,15 +26,15 @@ Computer Science
 </table>
 
 ### Example Output CSV File
-TABLE 1:
-Student Number,Student Name,Major,A1 mark,A2 mark
-V00000001,,,10,11
-V00123456,Alastair Avocado,Psychology,12,
-V00123457,Rebecca Raspberry,Computer Science,17,14
-V00314159,Fiona Framboise,Computer Science,,17
-V00654321,Meredith Malina,Software Engineering,18,12
-V00654322,Hannah Hindbaer,Physics,15,18
-V00951413,Neal Naranja,Anthropology,15,15
+TABLE 1:</br>
+Student Number,Student Name,Major,A1 mark,A2 mark</br>
+V00000001,,,10,11</br>
+V00123456,Alastair Avocado,Psychology,12,</br>
+V00123457,Rebecca Raspberry,Computer Science,17,14</br>
+V00314159,Fiona Framboise,Computer Science,,17</br>
+V00654321,Meredith Malina,Software Engineering,18,12</br>
+V00654322,Hannah Hindbaer,Physics,15,18</br>
+V00951413,Neal Naranja,Anthropology,15,15</br>
 
 
 
