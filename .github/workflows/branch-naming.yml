@@ -11,4 +11,4 @@ jobs:
             - name: Validate branch name requirements
               uses: deepakputhraya/action-branch-name@master
               with:
-                min_length: 6
+                min-length: 6
