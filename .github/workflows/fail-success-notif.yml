@@ -1,7 +1,7 @@
 name: Fail/Success Notification
 on:
   workflow_run:
-    workflows: [branch-naming]
+    workflows: [Enforce branch naming]
     types: [completed]
 
 jobs:
