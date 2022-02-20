@@ -14,3 +14,8 @@ jobs:
                 regex: '([a-z])+\/([a-z])+'
                 min_length: 6
                 max_length: 30
+    test:
+        runs-on: ubuntu-latest
+        steps:
+          - run: echo 'The triggering workflow failed'
+        
