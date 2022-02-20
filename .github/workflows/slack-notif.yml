@@ -1,5 +1,5 @@
 on: push
-name: Slack Notification Demo
+name: Slack Notification 
 jobs:
   slackNotification:
     name: Slack Notification
@@ -10,3 +10,4 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: https://app.slack.com/client/T4UATCYD7/D023091MJGK
+        SLACK_COLOR: ${{ job.status }}
