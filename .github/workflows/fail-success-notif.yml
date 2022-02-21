@@ -1,7 +1,7 @@
 name: Fail/Success Notification
 on:
   workflow_run:
-    workflows: [Enforce branch naming]
+    workflows: [PR Title Checker]
     types: [completed]
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}     
-        SLACK_MESSAGE: 'Branch naming works'
+        SLACK_MESSAGE: 'PR naming works'
         SLACK_TITLE: Success!!!
   on-failure:
     name: Fail!!!
@@ -27,5 +27,5 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_MESSAGE: 'Branch naming failed'
+        SLACK_MESSAGE: 'PR naming failed'
         SLACK_TITLE: Failed!!!
