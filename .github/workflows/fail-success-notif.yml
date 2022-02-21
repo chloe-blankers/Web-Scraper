@@ -29,4 +29,4 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_MESSAGE: 'PR naming failed'
         SLACK_TITLE: Failed!!!
-        SLACK_COLOR: #ff0000
+        SLACK_COLOR: ${{ #ff0000 }}
