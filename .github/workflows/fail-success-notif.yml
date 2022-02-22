@@ -19,4 +19,4 @@ jobs:
         SLACK_TITLE: Failed!!!
         SLACK_COLOR: ED1D24
         SLACK_ICON: repository
-        SLACK_ICON_EMOJI: ':bell:'
+        SLACK_ICON_EMOJI: ':octocat:'
